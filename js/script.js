@@ -26,7 +26,7 @@ for (let i = 1; i <= 100; i++)
         containerElement.append("Buzz ");
     } else {
         console.log(i);
-        containerElement.append("Numero ");
+        containerElement.append( i );
     }
 
 }
