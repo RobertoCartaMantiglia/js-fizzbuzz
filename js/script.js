@@ -17,15 +17,19 @@ for (let i = 1; i <= 100; i++)
    
     if ((i % 3 == 0) && (i % 5 == 0)) {
         console.log(i + " FizzBuzz ");
-        containerElement.append("FizzBuzz ");
+        // bonus 
+        containerElement.append(" FizzBuzz ");
     } else if (i % 3 == 0) {
         console.log(i + " Fizz");
-        containerElement.append("Fizz ");
+         // bonus 
+        containerElement.append(" Fizz ");
     } else if (i % 5 == 0) {
         console.log(i + " Buzz");
-        containerElement.append("Buzz ");
+         // bonus 
+        containerElement.append(" Buzz ");
     } else {
         console.log(i);
+         // bonus 
         containerElement.append( i );
     }
 
